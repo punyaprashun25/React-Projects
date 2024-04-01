@@ -1,9 +1,10 @@
 import React from 'react'
-import { Accordion } from './components'
+import { Accordion, ColorSelector } from './components'
 const App = () => {
   return (
     <div>
-      <Accordion />
+      {/* <Accordion /> */}
+      <ColorSelector/>
     </div>
   )
 }
