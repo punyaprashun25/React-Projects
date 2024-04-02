@@ -1,5 +1,5 @@
 import React from 'react'
-import { Accordion, ColorSelector, StarRating} from './components'
+import { Accordion, ColorSelector, ImageSlider, StarRating} from './components'
 const App = () => {
   return (
     <div>
@@ -10,8 +10,10 @@ const App = () => {
       {/* <ColorSelector/>  */}
 
       {/* Star rating with updating and increasing and decreasing the no. of stars using props*/}
-      <StarRating />
-      
+      {/* <StarRating /> */}
+
+      {/* Image Slider where data will be received using API */}
+      <ImageSlider />
     </div>
   )
 }
