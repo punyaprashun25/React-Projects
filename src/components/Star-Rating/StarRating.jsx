@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './index.css';
 import {FaStar} from 'react-icons/fa'
 
 const StarRating = ({noOfStars = 5}) => {
@@ -26,7 +25,7 @@ const StarRating = ({noOfStars = 5}) => {
           onMouseMove={()=>HandleMouseMove(index)}
           onMouseLeave={HandleMouseLeave}
           size={40}
-          className={index <= (hover || rating) ? "active" : "inactive"}
+          className={index <= (hover || rating) ? "text-[#fff700]" : "text-black"}
           />
         })
       }
