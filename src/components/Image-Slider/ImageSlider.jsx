@@ -1,4 +1,3 @@
-import { data } from 'autoprefixer';
 import React, { useEffect, useState } from 'react'
 import { BsArrowRightCircleFill, BsCircleFill, BsArrowLeftCircleFill } from 'react-icons/bs';
 

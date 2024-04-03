@@ -1,5 +1,5 @@
 import React from 'react'
-import { Accordion, ColorSelector, ImageSlider, StarRating } from './components'
+import { Accordion, ColorSelector, ImageSlider, LoadMore, StarRating } from './components'
 const App = () => {
   return (
     <div>
@@ -13,7 +13,10 @@ const App = () => {
       {/* <StarRating /> */}
 
       {/* Image Slider where data will be received using API */}
-      <ImageSlider url={'https://picsum.photos/v2/list'} page={'1'} limit={'10'} />
+      {/* <ImageSlider url={'https://picsum.photos/v2/list'} page={'1'} limit={'10'} /> */}
+
+      {/* Load More Button to Load more Data from API */}
+      <LoadMore />
     </div>
   )
 }
