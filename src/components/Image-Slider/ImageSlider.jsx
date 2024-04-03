@@ -46,7 +46,6 @@ const ImageSlider = ({ url, page = 1, limit = 5 }) => {
   if (errorMsg !== null) {
     return <div>Error occured !</div>;
   }
-  console.log(currentSlide);
   return (
     <div className="container relative flex justify-center items-center w-[600px] h-[450px]">
       <BsArrowLeftCircleFill className='arrow arrow-left absolute w-[2rem] h-[2rem] text-white drop-shadow-lg left-4 cursor-pointer'
@@ -66,7 +65,7 @@ const ImageSlider = ({ url, page = 1, limit = 5 }) => {
         {
           Images && Images.length
             ? Images.map((_, index) => (
-              <BsCircleFill key={index} className={"current-indicator h-[15x] w-[15px] rounded-[50%] border-none outline-none cursor-pointer "+(currentSlide===index ? 'text-gray-500': "text-white")}
+              <BsCircleFill key={index} className={"current-indicator h-[12x] w-[12px] rounded-[50%] border-none outline-none cursor-pointer "+(currentSlide===index ? 'text-white': "text-gray-500")}
               onClick={()=>HandleCirle(index)}
               ></BsCircleFill>
             ))
