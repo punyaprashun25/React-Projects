@@ -1,11 +1,11 @@
 import React from 'react'
-import { Accordion, ColorSelector, ImageSlider, StarRating} from './components'
+import { Accordion, ColorSelector, ImageSlider, StarRating } from './components'
 const App = () => {
   return (
     <div>
       {/* Accordion single and Multiple selection */}
       {/* <Accordion /> */}
-      
+
       {/* Random color generator with different types */}
       {/* <ColorSelector/>  */}
 
@@ -13,7 +13,7 @@ const App = () => {
       {/* <StarRating /> */}
 
       {/* Image Slider where data will be received using API */}
-      <ImageSlider />
+      <ImageSlider url={'https://picsum.photos/v2/list'} page={'1'} limit={'10'} />
     </div>
   )
 }
