@@ -1,5 +1,5 @@
 import React from 'react'
-import { Accordion, ColorSelector, ImageSlider, LoadMore, StarRating } from './components'
+import { Accordion, ColorSelector, ImageSlider, LoadMore, QrGenerator, StarRating, TreeView } from './components'
 const App = () => {
   return (
     <div>
@@ -16,7 +16,13 @@ const App = () => {
       {/* <ImageSlider url={'https://picsum.photos/v2/list'} page={'1'} limit={'10'} /> */}
 
       {/* Load More Button to Load more Data from API */}
-      <LoadMore />
+      {/* <LoadMore /> */}
+
+      {/* Tree View */}
+      {/* <TreeView /> */}
+
+      {/* QR Code Generator */}
+      <QrGenerator />
     </div>
   )
 }
