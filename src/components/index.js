@@ -6,6 +6,7 @@ import LoadMore from './Load-More-Data/LoadMore';
 import TreeView from './Tree-view/TreeView';
 import QrGenerator from './QR-Code Generator/QrGenerator';
 QrGenerator
+import LightDarkMode from './Light-Dark Mode/LightDarkMode';
 export {
     Accordion,
     ColorSelector,
@@ -13,5 +14,6 @@ export {
     ImageSlider,
     LoadMore,
     TreeView,
-    QrGenerator
+    QrGenerator,
+    LightDarkMode
 }

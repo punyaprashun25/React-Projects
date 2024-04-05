@@ -1,5 +1,5 @@
 import React from 'react'
-import { Accordion, ColorSelector, ImageSlider, LoadMore, QrGenerator, StarRating, TreeView } from './components'
+import { Accordion, ColorSelector, ImageSlider, LightDarkMode, LoadMore, QrGenerator, StarRating, TreeView } from './components'
 const App = () => {
   return (
     <div>
@@ -22,7 +22,10 @@ const App = () => {
       {/* <TreeView /> */}
 
       {/* QR Code Generator */}
-      <QrGenerator />
+      {/* <QrGenerator /> */}
+
+      {/* Light Dark mode switch */}
+      <LightDarkMode />
     </div>
   )
 }
