@@ -8,7 +8,9 @@ import QrGenerator from './QR-Code Generator/QrGenerator';
 QrGenerator
 import LightDarkMode from './Light-Dark Mode/LightDarkMode';
 import ScrollIndicator from './Scroll Indicator/ScrollIndicator';
+import TicTacToe from './Tic Tac Toe/TicTacToe';
 ScrollIndicator
+TicTacToe
 export {
     Accordion,
     ColorSelector,
@@ -18,5 +20,7 @@ export {
     TreeView,
     QrGenerator,
     LightDarkMode,
-    ScrollIndicator
+    ScrollIndicator,
+    TicTacToe
+    
 }

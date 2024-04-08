@@ -1,5 +1,5 @@
 import React from 'react'
-import { Accordion, ColorSelector, ImageSlider, LightDarkMode, LoadMore, QrGenerator, ScrollIndicator, StarRating, TreeView } from './components'
+import { Accordion, ColorSelector, ImageSlider, LightDarkMode, LoadMore, QrGenerator, ScrollIndicator, StarRating, TicTacToe, TreeView } from './components'
 const App = () => {
   return (
     <div>
@@ -28,7 +28,10 @@ const App = () => {
       {/* <LightDarkMode /> */}
 
       {/* Scroll Indicator */}
-      <ScrollIndicator />
+      {/* <ScrollIndicator /> */}
+
+      {/* Tic Tac Toe game */}
+      <TicTacToe />
     </div>
   )
 }
