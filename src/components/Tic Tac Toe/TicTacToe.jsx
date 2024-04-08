@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 
 
 function Sqaure({ value, HandleOnClick }) {
-    return <button className='square border h-32 w-32 flex items-center justify-center font-semibold text-3xl border-red-600 border-solid' onClick={HandleOnClick}>{value}</button>
+    return <button className='square border h-32 w-32 flex items-center justify-center font-semibold text-3xl bg-cyan-600 border-solid rounded-lg text-white' onClick={HandleOnClick}>{value}</button>
 }
 
 const TicTacToe = () => {
@@ -62,18 +62,18 @@ const TicTacToe = () => {
     return (
         <div className="h-screen game-box flex flex-col gap-8 items-center justify-center">
             <h2 className="status text-2xl font-medium">{status}</h2>
-            <div className='tic-tac-toe-container flex flex-col'>
-                <div className="row flex">
+            <div className='tic-tac-toe-container flex flex-col gap-2 bg-white'>
+                <div className="row flex gap-2">
                     <Sqaure value={sqaure[0]} HandleOnClick={() => HandleOnClick(0)} />
                     <Sqaure value={sqaure[1]} HandleOnClick={() => HandleOnClick(1)} />
                     <Sqaure value={sqaure[2]} HandleOnClick={() => HandleOnClick(2)} />
                 </div>
-                <div className="row flex">
+                <div className="row flex gap-2">
                     <Sqaure value={sqaure[3]} HandleOnClick={() => HandleOnClick(3)} />
                     <Sqaure value={sqaure[4]} HandleOnClick={() => HandleOnClick(4)} />
                     <Sqaure value={sqaure[5]} HandleOnClick={() => HandleOnClick(5)} />
                 </div>
-                <div className="row flex">
+                <div className="row flex gap-2">
                     <Sqaure value={sqaure[6]} HandleOnClick={() => HandleOnClick(6)} />
                     <Sqaure value={sqaure[7]} HandleOnClick={() => HandleOnClick(7)} />
                     <Sqaure value={sqaure[8]} HandleOnClick={() => HandleOnClick(8)} />
