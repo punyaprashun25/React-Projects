@@ -7,6 +7,8 @@ import TreeView from './Tree-view/TreeView';
 import QrGenerator from './QR-Code Generator/QrGenerator';
 QrGenerator
 import LightDarkMode from './Light-Dark Mode/LightDarkMode';
+import ScrollIndicator from './Scroll Indicator/ScrollIndicator';
+ScrollIndicator
 export {
     Accordion,
     ColorSelector,
@@ -15,5 +17,6 @@ export {
     LoadMore,
     TreeView,
     QrGenerator,
-    LightDarkMode
+    LightDarkMode,
+    ScrollIndicator
 }
